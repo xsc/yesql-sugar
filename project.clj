@@ -1,4 +1,4 @@
-(defproject yesql-sugar "0.1.0"
+(defproject yesql-sugar "0.1.1-SNAPSHOT"
   :description "Syntactic Sugar for yesql."
   :url "https://github.com/xsc/yesql-sugar"
   :license {:name "Eclipse Public License"
