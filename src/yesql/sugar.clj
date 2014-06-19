@@ -3,7 +3,7 @@
 
 ;; ## Wrap Functions
 
-(defn ->lookup
+(defn- ->lookup
   "Create lookup function for the given named parameter."
   [sym]
   {:pre [(symbol? sym)]}
@@ -71,7 +71,7 @@
               (alter-meta! fn-var assoc :arglists)))))
    fn-var))
 
-(defn wrap-yesql-vars
+(defn ^:no-doc wrap-yesql-vars
   "Given a map of symbol->post-processor associations, wrap all the given yesql vars
    to accept a map instead of positional parameters and apply the respective post-
    processor."
