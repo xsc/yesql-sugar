@@ -8,9 +8,7 @@ Syntactic Sugar for [yesql](https://github.com/krisajenkins/yesql).
 
 __Leiningen__ ([via Clojars](https://clojars.org/yesql-sugar))
 
-```clojure
-[yesql-sugar "0.1.0"]
-```
+[![Clojars Project](http://clojars.org/yesql-sugar/latest-version.svg)](http://clojars.org/yesql-sugar)
 
 To be used with yesql 0.4.0 since this library relies on some implementation details that
 might change between releases. Hopefully, future versions will have made yesql-sugar obsolete
