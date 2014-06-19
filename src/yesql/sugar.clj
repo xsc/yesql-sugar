@@ -114,21 +114,27 @@
 
    `test.sql`:
 
+   ```
       -- name: test-query
       SELECT id FROM people
       WHERE age < :max_age AND active = :active
+   ```
 
    `test.clj`:
 
+   ```
      (require '[yesql.sugar :refer :all])
      (defqueries+ \"sql/test.sql\"
        test-query (only :id))
+   ```
 
    This function can be called with a map of parameters and will return only
    a seq of IDs instead of maps of `{:id ...}`:
 
+   ```
      (test-query db-spec {:max_age 30 :active true})
      ;; => (123 456 ...)
+   ```
 
    "
   [queries-file & wrappers]

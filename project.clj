@@ -7,7 +7,7 @@
                  [yesql "0.4.0"]]
   :profiles {:dev {:plugins [[codox "0.8.9"]]
                    :codox {:include [yesql.sugar]
-                           :src-dir-uri "https://github.com/xsc/yesql-sugar/tree/"
+                           :src-dir-uri "https://github.com/xsc/yesql-sugar/blob/master/"
                            :src-linenum-anchor-prefix "L"
                            :defaults {:doc/format :markdown}}}}
   :pedantic? :abort)
