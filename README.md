@@ -6,7 +6,7 @@ Syntactic Sugar for [yesql](https://github.com/krisajenkins/yesql).
 
 ## Usage
 
-__Leiningen__ ([via Clojars](https://clojars.org/cpath-clj))
+__Leiningen__ ([via Clojars](https://clojars.org/yesql-sugar))
 
 ```clojure
 [yesql-sugar "0.1.0-SNAPSHOT"]
