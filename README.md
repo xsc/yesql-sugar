@@ -9,7 +9,7 @@ Syntactic Sugar for [yesql](https://github.com/krisajenkins/yesql).
 __Leiningen__ ([via Clojars](https://clojars.org/yesql-sugar))
 
 ```clojure
-[yesql-sugar "0.1.0-SNAPSHOT"]
+[yesql-sugar "0.1.0"]
 ```
 
 To be used with yesql 0.4.0 since this library relies on some implementation details that
