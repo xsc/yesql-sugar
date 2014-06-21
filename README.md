@@ -42,6 +42,10 @@ have to be passed as maps now, automatically converting dashes to underscores:
 
 As you can see, the function returns only the `:id` column.
 
+## Documentation
+
+Auto-generated documentation can be found [here](http://xsc.github.io/yesql-sugar/yesql.sugar.html).
+
 ## License
 
 Copyright &copy; 2014 Yannick Scherer
