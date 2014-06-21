@@ -1,1 +1,0 @@
-([:dependencies ([codox/codox.core "0.8.9"] [org.clojure/clojure "1.6.0"] [yesql/yesql "0.4.0"] [org.clojure/tools.nrepl "0.2.3" :exclusions ([org.clojure/clojure])] [clojure-complete/clojure-complete "0.2.3" :exclusions ([org.clojure/clojure])])])
